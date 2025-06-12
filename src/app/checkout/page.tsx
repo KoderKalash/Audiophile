@@ -199,7 +199,7 @@
                   <div className="flex flex-col md:flex-row gap-5">
                     <Input
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Kalash Sharma"
                       label="Name"
                       value={name}
                       name="name"
@@ -209,7 +209,7 @@
                     />
                     <Input
                       type="email"
-                      placeholder="johndoe@mail.com"
+                      placeholder="kalashsharma@mail.com"
                       label="Email Address"
                       value={email}
                       name="email"
@@ -220,7 +220,7 @@
                   </div>
                   <Input
                     type="tel"
-                    placeholder="+1 2018553076"
+                    placeholder="+91 0000000000"
                     label="Phone Number"
                     value={phoneNumber}
                     name="email"
@@ -235,7 +235,7 @@
                   </p>
                   <Input
                     type="text"
-                    placeholder="1137 Luck Avenue"
+                    placeholder="11XX Luck Road"
                     label="Address"
                     value={address}
                     name="address"
@@ -256,7 +256,7 @@
                     />
                     <Input
                       type="text"
-                      placeholder="New York"
+                      placeholder="Moon"
                       label="City"
                       value={city}
                       name="city"
@@ -267,7 +267,7 @@
                   </div>
                   <Input
                     type="text"
-                    placeholder="United States"
+                    placeholder="India"
                     label="Country"
                     value={country}
                     name="country"
@@ -309,7 +309,7 @@
                     <div className="flex flex-col md:flex-row gap-5">
                       <Input
                         type="string"
-                        placeholder="238521993"
+                        placeholder="XXX565656"
                         label="e-Money Number"
                         value={eMoneyNumber}
                         name="eMoneyNumber"
@@ -319,7 +319,7 @@
                       />
                       <Input
                         type="string"
-                        placeholder="6891"
+                        placeholder="****"
                         label="e-Money PIN"
                         value={eMoneyPin}
                         name="eMoneyPin"

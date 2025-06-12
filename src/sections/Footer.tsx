@@ -20,6 +20,8 @@ const Footer = () => {
     { text: "Earphones", href: "/earphones", active: false },
   ]);
 
+  const year = new Date().getFullYear();
+
   useEffect(() => {
     setFooterLinks((prevLinks) =>
       prevLinks.map((link) => ({
@@ -73,7 +75,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-7 md:gap-0 items-center w-full md:flex-row md:items-center md:justify-between">
         <p className="opacity-50 text-sm md:w-3/4 lg:w-1/2">
-          Copyright 2021. All Rights Reserved
+          Copyright {year}. All Rights Reserved
         </p>
         <div className="flex items-center md:justify-end gap-5 lg:hidden">
           <FaFacebookSquare className="text-2xl lg:text-3xl hover:text-primary transition-all duration-300 ease-in-out cursor-pointer" />
